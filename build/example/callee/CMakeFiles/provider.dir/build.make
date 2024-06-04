@@ -73,29 +73,29 @@ example/callee/CMakeFiles/provider.dir/userService.cpp.o: example/callee/CMakeFi
 example/callee/CMakeFiles/provider.dir/userService.cpp.o: ../example/callee/userService.cpp
 example/callee/CMakeFiles/provider.dir/userService.cpp.o: example/callee/CMakeFiles/provider.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/TestShare/Work/Project/RPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/callee/CMakeFiles/provider.dir/userService.cpp.o"
-	cd /mnt/TestShare/Work/Project/RPC/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/callee/CMakeFiles/provider.dir/userService.cpp.o -MF CMakeFiles/provider.dir/userService.cpp.o.d -o CMakeFiles/provider.dir/userService.cpp.o -c /mnt/TestShare/Work/Project/RPC/example/callee/userService.cpp
+	cd /mnt/TestShare/Work/Project/RPC/build/example/callee && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/callee/CMakeFiles/provider.dir/userService.cpp.o -MF CMakeFiles/provider.dir/userService.cpp.o.d -o CMakeFiles/provider.dir/userService.cpp.o -c /mnt/TestShare/Work/Project/RPC/example/callee/userService.cpp
 
 example/callee/CMakeFiles/provider.dir/userService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/provider.dir/userService.cpp.i"
-	cd /mnt/TestShare/Work/Project/RPC/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/TestShare/Work/Project/RPC/example/callee/userService.cpp > CMakeFiles/provider.dir/userService.cpp.i
+	cd /mnt/TestShare/Work/Project/RPC/build/example/callee && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/TestShare/Work/Project/RPC/example/callee/userService.cpp > CMakeFiles/provider.dir/userService.cpp.i
 
 example/callee/CMakeFiles/provider.dir/userService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/provider.dir/userService.cpp.s"
-	cd /mnt/TestShare/Work/Project/RPC/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/TestShare/Work/Project/RPC/example/callee/userService.cpp -o CMakeFiles/provider.dir/userService.cpp.s
+	cd /mnt/TestShare/Work/Project/RPC/build/example/callee && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/TestShare/Work/Project/RPC/example/callee/userService.cpp -o CMakeFiles/provider.dir/userService.cpp.s
 
 example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o: example/callee/CMakeFiles/provider.dir/flags.make
 example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o: ../example/user.pb.cc
 example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o: example/callee/CMakeFiles/provider.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/TestShare/Work/Project/RPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o"
-	cd /mnt/TestShare/Work/Project/RPC/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o -MF CMakeFiles/provider.dir/__/user.pb.cc.o.d -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /mnt/TestShare/Work/Project/RPC/example/user.pb.cc
+	cd /mnt/TestShare/Work/Project/RPC/build/example/callee && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o -MF CMakeFiles/provider.dir/__/user.pb.cc.o.d -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /mnt/TestShare/Work/Project/RPC/example/user.pb.cc
 
 example/callee/CMakeFiles/provider.dir/__/user.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/provider.dir/__/user.pb.cc.i"
-	cd /mnt/TestShare/Work/Project/RPC/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/TestShare/Work/Project/RPC/example/user.pb.cc > CMakeFiles/provider.dir/__/user.pb.cc.i
+	cd /mnt/TestShare/Work/Project/RPC/build/example/callee && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/TestShare/Work/Project/RPC/example/user.pb.cc > CMakeFiles/provider.dir/__/user.pb.cc.i
 
 example/callee/CMakeFiles/provider.dir/__/user.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/provider.dir/__/user.pb.cc.s"
-	cd /mnt/TestShare/Work/Project/RPC/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/TestShare/Work/Project/RPC/example/user.pb.cc -o CMakeFiles/provider.dir/__/user.pb.cc.s
+	cd /mnt/TestShare/Work/Project/RPC/build/example/callee && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/TestShare/Work/Project/RPC/example/user.pb.cc -o CMakeFiles/provider.dir/__/user.pb.cc.s
 
 # Object files for target provider
 provider_OBJECTS = \

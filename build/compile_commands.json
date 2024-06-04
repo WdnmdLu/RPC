@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/mnt/TestShare/Work/Project/RPC/build/src",
+  "command": "/usr/bin/g++ -Dmprpc_EXPORTS -I/mnt/TestShare/Work/Project/RPC/src/include -I/mnt/TestShare/Work/Project/RPC/example -g -fPIC -o CMakeFiles/mprpc.dir/MrprcApplication.cpp.o -c /mnt/TestShare/Work/Project/RPC/src/MrprcApplication.cpp",
+  "file": "/mnt/TestShare/Work/Project/RPC/src/MrprcApplication.cpp"
+},
+{
+  "directory": "/mnt/TestShare/Work/Project/RPC/build/src",
+  "command": "/usr/bin/g++ -Dmprpc_EXPORTS -I/mnt/TestShare/Work/Project/RPC/src/include -I/mnt/TestShare/Work/Project/RPC/example -g -fPIC -o CMakeFiles/mprpc.dir/MprpcConfig.cpp.o -c /mnt/TestShare/Work/Project/RPC/src/MprpcConfig.cpp",
+  "file": "/mnt/TestShare/Work/Project/RPC/src/MprpcConfig.cpp"
+},
+{
+  "directory": "/mnt/TestShare/Work/Project/RPC/build/src",
+  "command": "/usr/bin/g++ -Dmprpc_EXPORTS -I/mnt/TestShare/Work/Project/RPC/src/include -I/mnt/TestShare/Work/Project/RPC/example -g -fPIC -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /mnt/TestShare/Work/Project/RPC/src/rpcheader.pb.cc",
+  "file": "/mnt/TestShare/Work/Project/RPC/src/rpcheader.pb.cc"
+},
+{
+  "directory": "/mnt/TestShare/Work/Project/RPC/build/src",
+  "command": "/usr/bin/g++ -Dmprpc_EXPORTS -I/mnt/TestShare/Work/Project/RPC/src/include -I/mnt/TestShare/Work/Project/RPC/example -g -fPIC -o CMakeFiles/mprpc.dir/RpcProvider.cpp.o -c /mnt/TestShare/Work/Project/RPC/src/RpcProvider.cpp",
+  "file": "/mnt/TestShare/Work/Project/RPC/src/RpcProvider.cpp"
+},
+{
+  "directory": "/mnt/TestShare/Work/Project/RPC/build/src",
+  "command": "/usr/bin/g++ -Dmprpc_EXPORTS -I/mnt/TestShare/Work/Project/RPC/src/include -I/mnt/TestShare/Work/Project/RPC/example -g -fPIC -o CMakeFiles/mprpc.dir/MprpcChannel.cpp.o -c /mnt/TestShare/Work/Project/RPC/src/MprpcChannel.cpp",
+  "file": "/mnt/TestShare/Work/Project/RPC/src/MprpcChannel.cpp"
+},
+{
+  "directory": "/mnt/TestShare/Work/Project/RPC/build/src",
+  "command": "/usr/bin/g++ -Dmprpc_EXPORTS -I/mnt/TestShare/Work/Project/RPC/src/include -I/mnt/TestShare/Work/Project/RPC/example -g -fPIC -o CMakeFiles/mprpc.dir/MprpcControl.cpp.o -c /mnt/TestShare/Work/Project/RPC/src/MprpcControl.cpp",
+  "file": "/mnt/TestShare/Work/Project/RPC/src/MprpcControl.cpp"
+},
+{
+  "directory": "/mnt/TestShare/Work/Project/RPC/build/example/callee",
+  "command": "/usr/bin/g++  -I/mnt/TestShare/Work/Project/RPC/src/include -I/mnt/TestShare/Work/Project/RPC/example -g -o CMakeFiles/provider.dir/userService.cpp.o -c /mnt/TestShare/Work/Project/RPC/example/callee/userService.cpp",
+  "file": "/mnt/TestShare/Work/Project/RPC/example/callee/userService.cpp"
+},
+{
+  "directory": "/mnt/TestShare/Work/Project/RPC/build/example/callee",
+  "command": "/usr/bin/g++  -I/mnt/TestShare/Work/Project/RPC/src/include -I/mnt/TestShare/Work/Project/RPC/example -g -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /mnt/TestShare/Work/Project/RPC/example/user.pb.cc",
+  "file": "/mnt/TestShare/Work/Project/RPC/example/user.pb.cc"
+},
+{
+  "directory": "/mnt/TestShare/Work/Project/RPC/build/example/caller",
+  "command": "/usr/bin/g++  -I/mnt/TestShare/Work/Project/RPC/src/include -I/mnt/TestShare/Work/Project/RPC/example -g -o CMakeFiles/consumer.dir/calluserservice.cpp.o -c /mnt/TestShare/Work/Project/RPC/example/caller/calluserservice.cpp",
+  "file": "/mnt/TestShare/Work/Project/RPC/example/caller/calluserservice.cpp"
+},
+{
+  "directory": "/mnt/TestShare/Work/Project/RPC/build/example/caller",
+  "command": "/usr/bin/g++  -I/mnt/TestShare/Work/Project/RPC/src/include -I/mnt/TestShare/Work/Project/RPC/example -g -o CMakeFiles/consumer.dir/__/user.pb.cc.o -c /mnt/TestShare/Work/Project/RPC/example/user.pb.cc",
+  "file": "/mnt/TestShare/Work/Project/RPC/example/user.pb.cc"
+}
+]

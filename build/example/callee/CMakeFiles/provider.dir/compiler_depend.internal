@@ -696,5 +696,43 @@ example/callee/CMakeFiles/provider.dir/userService.cpp.o
  /usr/include/google/protobuf/service.h
  /mnt/TestShare/Work/Project/RPC/src/include/MprprApplication.h
  /mnt/TestShare/Work/Project/RPC/src/include/MprpcConfig.h
- /mnt/TestShare/Work/Project/RPC/src/include/RpcProvider.h
+ /mnt/TestShare/Work/Project/RPC/src/include/RpcProvider.hpp
+ /usr/include/mymuduo/TcpServer.h
+ /usr/include/mymuduo/EventLoop.h
+ /usr/include/mymuduo/noncopyable.h
+ /usr/include/mymuduo/Timestamp.h
+ /usr/include/mymuduo/CurrentThread.h
+ /usr/include/x86_64-linux-gnu/sys/syscall.h
+ /usr/include/x86_64-linux-gnu/asm/unistd.h
+ /usr/include/x86_64-linux-gnu/asm/unistd_64.h
+ /usr/include/x86_64-linux-gnu/bits/syscall.h
+ /usr/include/mymuduo/Acceptor.h
+ /usr/include/mymuduo/Socket.h
+ /usr/include/mymuduo/Channel.h
+ /usr/include/mymuduo/InetAddress.h
+ /usr/include/arpa/inet.h
+ /usr/include/netinet/in.h
+ /usr/include/x86_64-linux-gnu/sys/socket.h
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h
+ /usr/include/x86_64-linux-gnu/bits/socket.h
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h
+ /usr/include/x86_64-linux-gnu/asm/socket.h
+ /usr/include/asm-generic/socket.h
+ /usr/include/linux/posix_types.h
+ /usr/include/linux/stddef.h
+ /usr/include/x86_64-linux-gnu/asm/posix_types.h
+ /usr/include/x86_64-linux-gnu/asm/posix_types_64.h
+ /usr/include/asm-generic/posix_types.h
+ /usr/include/x86_64-linux-gnu/asm/bitsperlong.h
+ /usr/include/asm-generic/bitsperlong.h
+ /usr/include/x86_64-linux-gnu/asm/sockios.h
+ /usr/include/asm-generic/sockios.h
+ /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h
+ /usr/include/x86_64-linux-gnu/bits/in.h
+ /usr/include/mymuduo/EventLoopThreadPool.h
+ /usr/include/mymuduo/Callbacks.h
+ /usr/include/mymuduo/TcpConnection.h
+ /usr/include/mymuduo/Buffer.h
+ /usr/include/mymuduo/Logger.h
 

@@ -130,6 +130,30 @@ mprpc/fast:
 	cd /mnt/TestShare/Work/Project/RPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/build
 .PHONY : mprpc/fast
 
+MprpcChannel.o: MprpcChannel.cpp.o
+.PHONY : MprpcChannel.o
+
+# target to build an object file
+MprpcChannel.cpp.o:
+	cd /mnt/TestShare/Work/Project/RPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.o
+.PHONY : MprpcChannel.cpp.o
+
+MprpcChannel.i: MprpcChannel.cpp.i
+.PHONY : MprpcChannel.i
+
+# target to preprocess a source file
+MprpcChannel.cpp.i:
+	cd /mnt/TestShare/Work/Project/RPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.i
+.PHONY : MprpcChannel.cpp.i
+
+MprpcChannel.s: MprpcChannel.cpp.s
+.PHONY : MprpcChannel.s
+
+# target to generate assembly for a file
+MprpcChannel.cpp.s:
+	cd /mnt/TestShare/Work/Project/RPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.s
+.PHONY : MprpcChannel.cpp.s
+
 MprpcConfig.o: MprpcConfig.cpp.o
 .PHONY : MprpcConfig.o
 
@@ -153,6 +177,30 @@ MprpcConfig.s: MprpcConfig.cpp.s
 MprpcConfig.cpp.s:
 	cd /mnt/TestShare/Work/Project/RPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MprpcConfig.cpp.s
 .PHONY : MprpcConfig.cpp.s
+
+MprpcControl.o: MprpcControl.cpp.o
+.PHONY : MprpcControl.o
+
+# target to build an object file
+MprpcControl.cpp.o:
+	cd /mnt/TestShare/Work/Project/RPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MprpcControl.cpp.o
+.PHONY : MprpcControl.cpp.o
+
+MprpcControl.i: MprpcControl.cpp.i
+.PHONY : MprpcControl.i
+
+# target to preprocess a source file
+MprpcControl.cpp.i:
+	cd /mnt/TestShare/Work/Project/RPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MprpcControl.cpp.i
+.PHONY : MprpcControl.cpp.i
+
+MprpcControl.s: MprpcControl.cpp.s
+.PHONY : MprpcControl.s
+
+# target to generate assembly for a file
+MprpcControl.cpp.s:
+	cd /mnt/TestShare/Work/Project/RPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MprpcControl.cpp.s
+.PHONY : MprpcControl.cpp.s
 
 MrprcApplication.o: MrprcApplication.cpp.o
 .PHONY : MrprcApplication.o
@@ -202,6 +250,30 @@ RpcProvider.cpp.s:
 	cd /mnt/TestShare/Work/Project/RPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/RpcProvider.cpp.s
 .PHONY : RpcProvider.cpp.s
 
+rpcheader.pb.o: rpcheader.pb.cc.o
+.PHONY : rpcheader.pb.o
+
+# target to build an object file
+rpcheader.pb.cc.o:
+	cd /mnt/TestShare/Work/Project/RPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o
+.PHONY : rpcheader.pb.cc.o
+
+rpcheader.pb.i: rpcheader.pb.cc.i
+.PHONY : rpcheader.pb.i
+
+# target to preprocess a source file
+rpcheader.pb.cc.i:
+	cd /mnt/TestShare/Work/Project/RPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.i
+.PHONY : rpcheader.pb.cc.i
+
+rpcheader.pb.s: rpcheader.pb.cc.s
+.PHONY : rpcheader.pb.s
+
+# target to generate assembly for a file
+rpcheader.pb.cc.s:
+	cd /mnt/TestShare/Work/Project/RPC/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.s
+.PHONY : rpcheader.pb.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -211,15 +283,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mprpc"
+	@echo "... MprpcChannel.o"
+	@echo "... MprpcChannel.i"
+	@echo "... MprpcChannel.s"
 	@echo "... MprpcConfig.o"
 	@echo "... MprpcConfig.i"
 	@echo "... MprpcConfig.s"
+	@echo "... MprpcControl.o"
+	@echo "... MprpcControl.i"
+	@echo "... MprpcControl.s"
 	@echo "... MrprcApplication.o"
 	@echo "... MrprcApplication.i"
 	@echo "... MrprcApplication.s"
 	@echo "... RpcProvider.o"
 	@echo "... RpcProvider.i"
 	@echo "... RpcProvider.s"
+	@echo "... rpcheader.pb.o"
+	@echo "... rpcheader.pb.i"
+	@echo "... rpcheader.pb.s"
 .PHONY : help
 
 

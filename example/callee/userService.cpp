@@ -1,6 +1,6 @@
 #include "user.pb.h"
 #include "MprprApplication.h"
-#include "RpcProvider.h"
+#include "RpcProvider.hpp"
 #include <string>
 #include <iostream>
 using namespace google::protobuf;
@@ -11,13 +11,14 @@ using namespace google::protobuf;
 class UserService : public fixbug::UserServiceRpc
 {
 public:
+    // 业务逻辑真正的实现函数
     bool Login(std::string name, std::string pwd)
     {
         std::cout << "Doing local Service Login" << std::endl;
         std::cout << "name: " << name << " pwd: " << pwd << std::endl;
         return true;
     }
-
+    // 进行反序列化的函数
     void Login(::google::protobuf::RpcController* controller,
                const ::fixbug::LoginRequest* request,
                ::fixbug::LoginResponse* response,
@@ -32,6 +33,8 @@ public:
         code->set_errcode(0);
         code->set_errmsg("Ok");
         response->set_success(login_result);
+        response->set_allocated_result(code);
+        done->Run();
     }
 };
 
@@ -43,7 +46,8 @@ int main(int argc, char *argv[])
     // Provider是一个RPC网络服务对象，把UserService对象发布到rpc节点上
     RpcProvider provider;
     provider.NotifyService(new UserService());
+   
     provider.Run();
-
+    
     return 0;
 }

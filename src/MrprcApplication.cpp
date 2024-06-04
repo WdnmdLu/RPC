@@ -39,3 +39,13 @@ void MprpcApplication::Init(int argc,char *argv[]){
     Config.LoadConfigfile(config_file.c_str());
     return;
 }
+
+MprpcConfig& MprpcApplication::GetConfig()
+{
+    return Config;
+}
+MprpcApplication& MprpcApplication::GetInstance()
+{
+    static MprpcApplication app;
+    return app;
+}

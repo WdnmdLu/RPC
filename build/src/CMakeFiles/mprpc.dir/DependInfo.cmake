@@ -8,9 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/mnt/TestShare/Work/Project/RPC/src/MprpcChannel.cpp" "src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.o" "gcc" "src/CMakeFiles/mprpc.dir/MprpcChannel.cpp.o.d"
   "/mnt/TestShare/Work/Project/RPC/src/MprpcConfig.cpp" "src/CMakeFiles/mprpc.dir/MprpcConfig.cpp.o" "gcc" "src/CMakeFiles/mprpc.dir/MprpcConfig.cpp.o.d"
+  "/mnt/TestShare/Work/Project/RPC/src/MprpcControl.cpp" "src/CMakeFiles/mprpc.dir/MprpcControl.cpp.o" "gcc" "src/CMakeFiles/mprpc.dir/MprpcControl.cpp.o.d"
   "/mnt/TestShare/Work/Project/RPC/src/MrprcApplication.cpp" "src/CMakeFiles/mprpc.dir/MrprcApplication.cpp.o" "gcc" "src/CMakeFiles/mprpc.dir/MrprcApplication.cpp.o.d"
   "/mnt/TestShare/Work/Project/RPC/src/RpcProvider.cpp" "src/CMakeFiles/mprpc.dir/RpcProvider.cpp.o" "gcc" "src/CMakeFiles/mprpc.dir/RpcProvider.cpp.o.d"
+  "/mnt/TestShare/Work/Project/RPC/src/rpcheader.pb.cc" "src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o" "gcc" "src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.d"
   )
 
 # Targets to which this target links.

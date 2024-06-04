@@ -3,6 +3,7 @@
 #include <fstream>
 #include <sstream>
 #include <string>
+// 加载配置文件
 void MprpcConfig::LoadConfigfile(const char *config_file)
 {
     std::ifstream file(config_file);
@@ -33,12 +34,13 @@ void MprpcConfig::LoadConfigfile(const char *config_file)
             m_configMap[key] = value;
         }
     }
-    std::cout<<"rpcServerIp: "<<Load("rpcServerIp")<<std::endl;
+    /*std::cout<<"rpcServerIp: "<<Load("rpcServerIp")<<std::endl;
     std::cout<<"rpcServerPort: "<<Load("rpcServerPort")<<std::endl;
     std::cout<<"zookeeperIp: "<<Load("zookeeperIp")<<std::endl;
-    std::cout<<"zookeeperPort: "<<Load("zookeeperPort")<<std::endl;
+    std::cout<<"zookeeperPort: "<<Load("zookeeperPort")<<std::endl;*/
     file.close();
 }
+// 根据传入的Key找到对应的Value(ip或port)
 std::string MprpcConfig::Load(const std::string &key)
 {
     if (m_configMap.count(key) > 0)
@@ -48,6 +50,7 @@ std::string MprpcConfig::Load(const std::string &key)
     else
     {
         // 如果找不到对应的键，则返回一个空字符串或者抛出异常，取决于你的需求
-        return "";
+        return " ";
     }
 }
+
